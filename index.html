@@ -2,41 +2,41 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>Tic Tac Toe</title>
-  <link rel="stylesheet" href="tictactoe.css">
-  <script src="scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+    <script src="scripts.js"></script>
 </head>
 
 <body>
 
-  <div class="container">
+    <div class="container">
 
-    <div class="jumbotron">
-      <h1>Welcome to Tic Tac Toe</h1>
-      <p style="font-size:20px;">Get ready to play!</p>
-      <button onclick="resetBoard()" type="button" class="btn btn-primary btn-lg" name="button">Restart</button>
+        <div class="jumbotron">
+            <h1>Welcome to Tic Tac Toe</h1>
+            <p style="font-size:20px;">Get ready to play!</p>
+            <button onclick="resetBoard()" type="button" class="btn btn-primary btn-lg" name="button">Restart</button>
+        </div>
+
+        <table>
+            <tr>
+                <td id='b1' onclick="handleClick(this)"></td>
+                <td id='b2' onclick="handleClick(this)"></td>
+                <td id='b3' onclick="handleClick(this)"></td>
+            </tr>
+            <tr>
+                <td id='b4' onclick="handleClick(this)"></td>
+                <td id='b5' onclick="handleClick(this)"></td>
+                <td id='b6' onclick="handleClick(this)"></td>
+            </tr>
+            <tr>
+                <td id='b7' onclick="handleClick(this)"></td>
+                <td id='b8' onclick="handleClick(this)"></td>
+                <td id='b9' onclick="handleClick(this)"></td>
+            </tr>
+        </table>
+
     </div>
-
-    <table>
-      <tr>
-        <td id='b1' onclick="handleClick(this)"></td>
-        <td id='b2' onclick="handleClick(this)"></td>
-        <td id='b3' onclick="handleClick(this)"></td>
-      </tr>
-      <tr>
-        <td id='b4' onclick="handleClick(this)"></td>
-        <td id='b5' onclick="handleClick(this)"></td>
-        <td id='b6' onclick="handleClick(this)"></td>
-      </tr>
-      <tr>
-        <td id='b7' onclick="handleClick(this)"></td>
-        <td id='b8' onclick="handleClick(this)"></td>
-        <td id='b9' onclick="handleClick(this)"></td>
-      </tr>
-    </table>
-
-  </div>
 
 </body>
 
